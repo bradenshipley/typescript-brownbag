@@ -1,3 +1,5 @@
+https://reactjs.org/docs/higher-order-components.html
+
 - What is a Higher Order Component?
 
 - True or false: HoCs are part of the React API.
