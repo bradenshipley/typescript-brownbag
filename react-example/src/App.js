@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
+import Child from './Child'
 import "./App.css";
 
 class App extends Component {
   render() {
+    let number = Math.floor(Math.random() * 40)
     return (
       <div className="App">
         <header className="App-header">
@@ -11,7 +13,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-
+          <Child name={number.toString()} />
           <a
             className="App-link"
             href="https://reactjs.org"

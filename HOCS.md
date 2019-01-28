@@ -17,3 +17,4 @@ https://reactjs.org/docs/higher-order-components.html
 - What are the caveats of using HoCs?
 
 - Can you think of any uses for HoCs in your personal project?
+

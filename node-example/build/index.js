@@ -1,5 +1,6 @@
-import { users, IUser } from "./users";
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const users_1 = require("./users");
 /**
  * users is an array of user information from your database.
  * Create a new array called greetings that is the result
@@ -15,8 +16,12 @@ import { users, IUser } from "./users";
  *      "Hi Garrett! You have 834672 unread messages."]
  *
  * Errors do not keep TS from creating a build file.
+ *
+ *
+ *
+ *
  */
-const makeGreeting = (user: IUser) => {
-  `Hi ${user.first_name}! You have ${user.messages.unread} unread messages!`
-}
-const greetings = users.map(makeGreeting)
+const makeGreeting = (user) => {
+    `Hi ${user.first_name}! You have ${user.messages.unread} unread messages!`;
+};
+const greetings = users_1.users.map(makeGreeting);
